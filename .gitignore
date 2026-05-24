@@ -1,0 +1,101 @@
+# =============================================================================
+# Secrets & environment (never commit)
+# =============================================================================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+credentials.json
+*credentials*.json
+serviceAccount*.json
+.aws/
+.netrc
+
+# =============================================================================
+# Python (backend)
+# =============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+ENV/
+.eggs/
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+*.cover
+.hypothesis/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# =============================================================================
+# Node.js / Next.js (frontend)
+# =============================================================================
+node_modules/
+.next/
+out/
+build/
+.turbo/
+.vercel/
+.npm/
+.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+*.tsbuildinfo
+next-env.d.ts
+
+# =============================================================================
+# Logs & debug
+# =============================================================================
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+lerna-debug.log*
+
+# =============================================================================
+# OS & editors
+# =============================================================================
+.DS_Store
+.DS_Store?
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# Optional: uncomment if you don't share editor config
+# .vscode/
+
+# =============================================================================
+# Local tooling / caches
+# =============================================================================
+.cache/
+*.local
+.cursor/

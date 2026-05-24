@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" role="img" aria-label="Landing page preview mockup">
+  <defs>
+    <linearGradient id="lp-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" style="stop-color:#0c0a12"/>
+      <stop offset="100%" style="stop-color:#07060d"/>
+    </linearGradient>
+    <radialGradient id="lp-glow" cx="50%" cy="20%" r="60%">
+      <stop offset="0%" style="stop-color:#7c3aed;stop-opacity:0.35"/>
+      <stop offset="100%" style="stop-color:#7c3aed;stop-opacity:0"/>
+    </radialGradient>
+  </defs>
+  <rect width="900" height="520" rx="16" fill="url(#lp-bg)" stroke="#27272a" stroke-width="1"/>
+  <rect width="900" height="520" rx="16" fill="url(#lp-glow)"/>
+  <!-- Nav -->
+  <rect x="24" y="20" width="852" height="48" rx="10" fill="#ffffff" fill-opacity="0.03"/>
+  <circle cx="52" cy="44" r="14" fill="#8b5cf6" fill-opacity="0.25"/>
+  <text x="72" y="49" font-family="Georgia,serif" font-size="14" fill="#fafafa">AM Thoughts</text>
+  <rect x="720" y="32" width="88" height="28" rx="14" fill="#8b5cf6" fill-opacity="0.2" stroke="#8b5cf6" stroke-opacity="0.3"/>
+  <text x="764" y="50" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#e9d5ff">Get started</text>
+  <!-- Badge -->
+  <rect x="300" y="100" width="300" height="28" rx="14" fill="#7c3aed" fill-opacity="0.12" stroke="#8b5cf6" stroke-opacity="0.25"/>
+  <text x="450" y="119" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#c4b5fd">Emotional wellness for restless nights</text>
+  <!-- Headline -->
+  <text x="450" y="195" text-anchor="middle" font-family="Georgia,serif" font-size="28" fill="#fafafa">The thoughts that visit at</text>
+  <text x="450" y="235" text-anchor="middle" font-family="Georgia, serif" font-size="32" fill="#ddd6fe">3 AM</text>
+  <text x="450" y="275" text-anchor="middle" font-family="Georgia,serif" font-size="28" fill="#fafafa">deserve a softer place to land.</text>
+  <!-- Subtext -->
+  <text x="450" y="315" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#71717a">Gentle guidance without judgment or noise.</text>
+  <!-- CTAs -->
+  <rect x="280" y="340" width="140" height="44" rx="22" fill="#7c3aed"/>
+  <text x="350" y="368" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#fff">Begin tonight</text>
+  <rect x="440" y="340" width="180" height="44" rx="22" fill="#ffffff" fill-opacity="0.05" stroke="#3f3f46"/>
+  <text x="530" y="368" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#e4e4e7">See how it works</text>
+  <!-- Feature cards -->
+  <rect x="40" y="410" width="190" height="88" rx="12" fill="#ffffff" fill-opacity="0.03" stroke="#27272a"/>
+  <rect x="250" y="410" width="190" height="88" rx="12" fill="#ffffff" fill-opacity="0.03" stroke="#27272a"/>
+  <rect x="460" y="410" width="190" height="88" rx="12" fill="#ffffff" fill-opacity="0.03" stroke="#27272a"/>
+  <rect x="670" y="410" width="190" height="88" rx="12" fill="#ffffff" fill-opacity="0.03" stroke="#27272a"/>
+  <text x="135" y="445" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#a1a1aa">Night audio</text>
+  <text x="345" y="445" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#a1a1aa">Thought labeling</text>
+  <text x="555" y="445" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#a1a1aa">Breath + body</text>
+  <text x="765" y="445" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#a1a1aa">Morning bridge</text>
+</svg>
