@@ -1,6 +1,7 @@
 "use client";
 
 import { motion, useReducedMotion, type Variants } from "framer-motion";
+import Link from "next/link";
 
 const easeOut = [0.22, 1, 0.36, 1] as const;
 
@@ -155,12 +156,12 @@ export default function LandingPage() {
               transition={{ delay: reduceMotion ? 0 : 0.2 }}
               className="mt-10 flex flex-col gap-4 sm:flex-row sm:items-center"
             >
-              <a
-                href="#cta"
-                className="inline-flex h-14 items-center justify-center rounded-full bg-gradient-to-r from-violet-500 to-indigo-500 px-8 text-base font-medium text-white shadow-[0_0_48px_-12px_rgba(139,92,246,0.75)] transition hover:brightness-110"
+              <Link
+                href="/chat"
+                className="inline-flex h-14 items-center justify-center rounded-full bg-purple-600 px-8 text-base font-medium text-white transition hover:bg-purple-700"
               >
-                Begin tonight
-              </a>
+                Begin Chat
+              </Link>
               <a
                 href="#features"
                 className="inline-flex h-14 items-center justify-center rounded-full border border-white/10 bg-white/[0.03] px-8 text-base font-medium text-zinc-100 ring-1 ring-white/[0.06] backdrop-blur-sm transition hover:bg-white/[0.06]"
